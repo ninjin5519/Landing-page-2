@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: rubik;
+  src: url(/Rubik-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  padding: 24px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.home {
+  display: flex;
+  gap: 29px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.home a {
+  color: #0a0d17;
+  text-decoration: none;
+}
+
+header h1 {
+  font-family: rubik;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f7fa;
+  margin-top: 23px;
+  padding-top: 81px;
+}
+
+.contact .top {
+  width: 601px;
+}
+
+.contact h1 {
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  color: #161c2d;
+}
+
+.contact p {
+  margin-top: 44px;
+  font-size: 19px;
+  font-weight: 400;
+  color: #161c2d;
+  text-align: center;
+}
+
+.contact .list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 65px;
+  gap: 25px;
+  width: 1075px;
+}
+.list .list-icon {
+  display: flex;
+  gap: 25px;
+}
+
+.list h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #161c2d;
+}
+
+.list li {
+  font-size: 21px;
+  font-weight: 400;
+  color: #161c2d;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.input {
+  margin-top: 75px;
+  background-color: white;
+  width: 1110px;
+  padding-left: 45px;
+  padding-top: 44px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 10px;
+  margin-bottom: 230px;
+}
+
+.input-box .box {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.input-box {
+  display: flex;
+  gap: 30px;
+}
+
+.input-box div {
+  flex: 1;
+}
+
+.input-box h6 {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.input-box button {
+  margin-top: 32px;
+  background-color: #473bf0;
+  color: white;
+  width: 213px;
+  height: 59px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 52px;
+}
+
+.input input {
+  width: 100%;
+  color: #e7e9ed;
+}
+
+.input .message {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.lists {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 121px;
+}
+
+.lists div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+footer ul li {
+  list-style: none;
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+footer h3 {
+  font-size: 15px;
+  font-weight: 400;
+  color: #161c2d;
+}
+
+footer a {
+  color: #473bf0;
+  text-decoration-line: none;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+footer .text {
+  display: flex;
+  justify-content: space-between;
+  margin: 108px 245px;
+  border-top: #e7e9ed solid 2px;
+  padding-top: 29.5px;
+}
+
+footer .copy {
+  display: flex;
+  gap: 8px;
+}
+
+.copy p {
+  white-space: nowrap;
+}
+
+footer .logos {
+  display: flex;
+  gap: 30px;
+}
+
+input {
+  border: 1px solid #e7e9ed;
+  height: 50px;
+  border-radius: 10px;
+  padding: 12px 18px;
+}
+
+.message {
+  height: 200px;
+}
